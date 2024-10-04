@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #5f9cffa8, #feb47b);
+    height: 30vh;
+}
+#table{
+    margin: 90px auto;
+    height: 60vh;
+    width: 50vw;
+    color: brown;
+    font-size: 20px;
+    border: rgba(128, 0, 0, 0.6) solid 3px;
+    background-color: white;
+}
+#hh{
+    color: rgb(196, 102, 205);
+    font-size: 30px;
+    height: 30px;
+    width: 30vw;
+}
+#hb{
+    height: 30px;
+    width: 80px;
+    margin: 35px 200px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(143, 9, 158);
+    color: rgb(234, 212, 17);
+}
+.tb{
+    background-color: #5f9cffa8;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+}
+.tb:hover{
+    background-color: #5f9cffdb;
+}
+#table tr th{
+    padding: 10px ;
+    color: #1c2de4e4;
+}
+.udata{
+    height: 300px;
+    margin:200px 500px;
+    border: outset rgb(0, 166, 255) ;
+    padding: 50px;
+}
+.udata input{
+    height: 35px;
+    width: 260px;
+    font-size: 18px;
+    color: chocolate;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+}
+.uh{
+    /* text-shadow: 3px 1px  rgb(146, 78, 205),3px 4px  rgb(58, 61, 60);  */
+    color: rgb(164, 84, 201);
+}
+.ub{
+    margin: 20px 40px;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(165, 42, 42, 0.721);
+    color: white;
+    font-size: 15px;
+}
